@@ -8,19 +8,20 @@
 **B) Crie um plugin que adicione um comando ao WP-CLI que imprima um relatório de histórico de registros. Esse relatório pode ser apenas a listagem das últimas entradas com seus respectivos.**
 
 ==================================================================================
-Link do repositório no Github:
+##
+**Link do repositório no Github:**
 https://github.com/takashi-ichikihara/atividade-clube-do-valor/ 
 
-Plugin A:
+**Plugin A:**
 Shortcode para inserir o botão [botao_registro]
 
-Plugin B:
+**Plugin B:**
 Shortcode [display_click_table] > Mostrar os dados da tabela
 Shortcode para inserir o botão  [display_click_table]
 
 Linha de comando no terminal:
 wp click-tracking report
-
+##
 ==================================================================================
 
 # PLUGIN A
