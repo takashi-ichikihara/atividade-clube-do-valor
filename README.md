@@ -28,18 +28,34 @@ Para exibir dentro da página coloque o shortcode [botao_registro]
 ###
 <img src='/images/ativ3.jpg'>
 
-#PLUGIN B
+# PLUGIN B
 
 ## **Quebrando o problema em 6 partes**
 
 ## 1) Vamos criar diretorio do plugin **Registro de cliques**
 ###
+<img src='/images/ativ01.jpg'>
 ## 2) Fazer com que o clique do botão armazena os dados na tabela em sql
 ###
+<img src='/images/ativ02.jpg'>
 ## 3) Agora Print os Dados da Tabela do banco em uma tabela num post no wordpress
 ###
+<img src='/images/ativ03.jpg'>
 ## 4) Mostrar botão e a tabela no Post no Wordpress
 ###
-## 5) Adicionar um comando ao WP-CLI que imprima um relatório de histórico de registros com as linhas ID, DataHora e Cliques.
+## 5) **Adicionar um comando ao WP-CLI que imprima um relatório de histórico de registros com as linhas ID, DataHora e Cliques.**
+> if ( defined( 'WP_CLI' ) && WP_CLI ) {
+    // Comando WP-CLI para imprimir relatório de histórico de registros
+    function click_tracking_report() {
+        global $wpdb;
+        $table_name = $wpdb->prefix . 'clicks';
+        $clicks = $wpdb->get_results("SELECT id, click_date, clicks FROM $table_name ORDER BY id DESC LIMIT 10");
+
+        foreach ($clicks as $click) {
+            WP_CLI::line("ID: {$click->id}, Data e Hora: {$click->click_date}, Cliques: {$click->clicks}");
+        }
+    }
+    WP_CLI::add_command('click-tracking report', 'click_tracking_report');
+}
 ###
 ## 6) Acrescentei um botão de Excluir um registro da tabela no banco e na tabela do post
