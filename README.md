@@ -11,15 +11,19 @@ B) Crie um plugin que adicione um comando ao WP-CLI que imprima um relatório de
 # PLUGIN A
 ## 1) Primeiro vamos criar um diretório para o plugin
 Chamei a pasta de auto-click
+###
 <img src='/images/ativ1.jpg'>
 
 ## 2) Criar um arquivo em php dentro da pasta auto-click com nome click-recorder.php
 ## 3) Ativar o plugin
+###
 <img src='/images/ativ1a.jpg'>
 
 ## Adicionando o shortcode dentro do conteúdo da página do site
 Para exibir dentro da página coloque o shortcode [botao_registro]
+###
 <img src='/images/ativ2.jpg'>
 
-Testando o clique do botão e mostrando o acesso a cada clique como ele salva no banco de dados pegando o ID e DATA_HORA
+**Testando o clique do botão e mostrando o acesso a cada clique como ele salva no banco de dados pegando o ID e DATA_HORA
+###
 <img src='/images/ativ3.jpg'>
