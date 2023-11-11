@@ -27,3 +27,19 @@ Para exibir dentro da página coloque o shortcode [botao_registro]
 **Testando o clique do botão e mostrando o acesso a cada clique como ele salva no banco de dados pegando o ID e DATA_HORA**
 ###
 <img src='/images/ativ3.jpg'>
+
+#PLUGIN B
+
+## **Quebrando o problema em 6 partes**
+
+## 1) Vamos criar diretorio do plugin **Registro de cliques**
+###
+## 2) Fazer com que o clique do botão armazena os dados na tabela em sql
+###
+## 3) Agora Print os Dados da Tabela do banco em uma tabela num post no wordpress
+###
+## 4) Mostrar botão e a tabela no Post no Wordpress
+###
+## 5) Adicionar um comando ao WP-CLI que imprima um relatório de histórico de registros com as linhas ID, DataHora e Cliques.
+###
+## 6) Acrescentei um botão de Excluir um registro da tabela no banco e na tabela do post
