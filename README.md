@@ -24,6 +24,6 @@ Para exibir dentro da página coloque o shortcode [botao_registro]
 ###
 <img src='/images/ativ2.jpg'>
 
-**Testando o clique do botão e mostrando o acesso a cada clique como ele salva no banco de dados pegando o ID e DATA_HORA**
+__Testando o clique do botão e mostrando o acesso a cada clique como ele salva no banco de dados pegando o ID e DATA_HORA
 ###
 <img src='/images/ativ3.jpg'>
