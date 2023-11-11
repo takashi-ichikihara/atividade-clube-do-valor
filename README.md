@@ -8,8 +8,7 @@
 **B) Crie um plugin que adicione um comando ao WP-CLI que imprima um relatório de histórico de registros. Esse relatório pode ser apenas a listagem das últimas entradas com seus respectivos.**
 
 ==================================================================================
-##
-<!--                                                     
+##                                                    
 
   _           _          _       _   _      _   _                            
  | |         (_)        | |     (_) | |    (_) | |                           
@@ -17,10 +16,6 @@
  | __|       | |  / __| | '_ \  | | | |/ / | | | '_ \   / _` | | '__|  / _` |
  | |_   _    | | | (__  | | | | | | |   <  | | | | | | | (_| | | |    | (_| |
   \__| (_)   |_|  \___| |_| |_| |_| |_|\_\ |_| |_| |_|  \__,_| |_|     \__,_|
-                                                                             
-
-
--->
 
 **Link do repositório no Github:**
 https://github.com/takashi-ichikihara/atividade-clube-do-valor/ 
@@ -33,7 +28,7 @@ Shortcode [display_click_table] > Mostrar os dados da tabela
 Shortcode para inserir o botão  [display_click_table]
 
 Linha de comando do WP-CLI no terminal: Vai retornar as últimas 10 entradas da tabela de cliques mostrando ID, DataHora e Cliques
-**wp click-tracking report**
+# **wp click-tracking report** #
 ##
 ==================================================================================
 
