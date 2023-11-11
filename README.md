@@ -7,6 +7,21 @@
 
 **B) Crie um plugin que adicione um comando ao WP-CLI que imprima um relatório de histórico de registros. Esse relatório pode ser apenas a listagem das últimas entradas com seus respectivos.**
 
+==================================================================================
+Link do repositório no Github:
+https://github.com/takashi-ichikihara/atividade-clube-do-valor/ 
+
+Plugin A:
+Shortcode para inserir o botão [botao_registro]
+
+Plugin B:
+Shortcode [display_click_table] > Mostrar os dados da tabela
+Shortcode para inserir o botão  [display_click_table]
+
+Linha de comando no terminal:
+wp click-tracking report
+
+==================================================================================
 
 # PLUGIN A
 ## 1) Primeiro vamos criar um diretório para o plugin
@@ -51,6 +66,8 @@ Para exibir dentro da página coloque o shortcode [botao_registro]
 
 ## 5) **Adicionar um comando ao WP-CLI que imprima um relatório de histórico de registros com as linhas ID, DataHora e Cliques.**##
 <img src='/images/ativ04.jpg'>
+
+
 
 ###
 ## 6) Acrescentei um botão de Excluir um registro da tabela no banco e na tabela do post
