@@ -40,7 +40,7 @@ Shortcode para inserir o botão [botao_registro]
 Shortcode [display_click_table] > Mostrar os dados da tabela
 Shortcode para inserir o botão  [display_click_table]
 
-Linha de comando do WP-CLI no terminal: Vai retornar as últimas 10 entradas da tabela de cliques mostrando ID, DataHora e Cliques
+**Linha de comando do WP-CLI no terminal: Vai retornar as últimas 10 entradas da tabela de cliques mostrando ID, DataHora e Cliques**
 # **wp click-tracking report** #
 ##
 ==================================================================================
