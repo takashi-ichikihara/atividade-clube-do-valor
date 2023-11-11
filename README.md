@@ -54,4 +54,4 @@ Para exibir dentro da página coloque o shortcode [botao_registro]
 
 ###
 ## 6) Acrescentei um botão de Excluir um registro da tabela no banco e na tabela do post
-<img src='/images/ativ04.jpg'>
+<img src='/images/ativ05.jpg'>
