@@ -44,18 +44,6 @@ Para exibir dentro da página coloque o shortcode [botao_registro]
 ## 4) Mostrar botão e a tabela no Post no Wordpress
 ###
 ## 5) **Adicionar um comando ao WP-CLI que imprima um relatório de histórico de registros com as linhas ID, DataHora e Cliques.**
-> if ( defined( 'WP_CLI' ) && WP_CLI ) {
-    // Comando WP-CLI para imprimir relatório de histórico de registros
-    function click_tracking_report() {
-        global $wpdb;
-        $table_name = $wpdb->prefix . 'clicks';
-        $clicks = $wpdb->get_results("SELECT id, click_date, clicks FROM $table_name ORDER BY id DESC LIMIT 10");
-
-        foreach ($clicks as $click) {
-            WP_CLI::line("ID: {$click->id}, Data e Hora: {$click->click_date}, Cliques: {$click->clicks}");
-        }
-    }
-    WP_CLI::add_command('click-tracking report', 'click_tracking_report');
-}
+> Inserindo código aqui >
 ###
 ## 6) Acrescentei um botão de Excluir um registro da tabela no banco e na tabela do post
