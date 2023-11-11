@@ -37,9 +37,9 @@ https://github.com/takashi-ichikihara/atividade-clube-do-valor/
 Shortcode para inserir o botão [botao_registro]
 
 **Plugin B:**
-Shortcode [display_click_table] > Mostrar os dados da tabela
+Mostrar os dados da tabela > Shortcode [display_click_table] 
 <br>
-Shortcode para inserir o botão  [display_click_table]
+Para inserir o botão na página > Shortcode [display_click_table]
 
 **Linha de comando do WP-CLI no terminal: Vai retornar as últimas 10 entradas da tabela de cliques mostrando ID, DataHora e Cliques**
 # **wp click-tracking report** #
