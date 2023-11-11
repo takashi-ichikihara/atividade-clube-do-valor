@@ -43,6 +43,7 @@ Para exibir dentro da página coloque o shortcode [botao_registro]
 <img src='/images/ativ03.jpg'>
 ## 4) Mostrar botão e a tabela no Post no Wordpress o shortcode para mostrar o botão é [click_button] 
 ###
+
 ## 5) **Adicionar um comando ao WP-CLI que imprima um relatório de histórico de registros com as linhas ID, DataHora e Cliques.**
 <img src='/images/ativ04.jpg'>
 ###
